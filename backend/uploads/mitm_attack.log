@@ -1,0 +1,5 @@
+[2026-01-05 23:30:11] Received SSL Certificate Mismatch: local domain cert does not match CA.
+[2026-01-05 23:30:15] warning: certificate verify failed for 192.168.1.50
+[2026-01-05 23:31:02] CRITICAL: ARP duplicate IP/MAC conflict for 192.168.1.1. duplicate_mac detected!
+[2026-01-05 23:32:45] Alert: SSL Certificate Mismatch for internal_app_v2. Production traffic might be intercepted.
+[2026-01-05 23:33:10] CRITICAL: ARP table anomaly. duplicate_mac found on interface eth0.

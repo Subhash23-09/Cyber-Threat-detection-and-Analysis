@@ -1,0 +1,5077 @@
+[
+  {
+    "id": 204,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.19.102"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667924"
+  },
+  {
+    "id": 205,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.6"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667930"
+  },
+  {
+    "id": 206,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.14.224"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667933"
+  },
+  {
+    "id": 207,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.209"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667934"
+  },
+  {
+    "id": 208,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.215.16"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667936"
+  },
+  {
+    "id": 209,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.16"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667938"
+  },
+  {
+    "id": 210,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.193"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667940"
+  },
+  {
+    "id": 211,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.106.10"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667941"
+  },
+  {
+    "id": 212,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.197.226"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667943"
+  },
+  {
+    "id": 213,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.11.100"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667944"
+  },
+  {
+    "id": 214,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.179"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667946"
+  },
+  {
+    "id": 215,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.14.196"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667948"
+  },
+  {
+    "id": 216,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.244"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667949"
+  },
+  {
+    "id": 217,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.74.79"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667951"
+  },
+  {
+    "id": 218,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.19"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667952"
+  },
+  {
+    "id": 219,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.89.155"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667954"
+  },
+  {
+    "id": 220,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.18.114"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667955"
+  },
+  {
+    "id": 221,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.225"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667957"
+  },
+  {
+    "id": 222,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.85"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667958"
+  },
+  {
+    "id": 223,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.5"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667960"
+  },
+  {
+    "id": 224,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.149"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667961"
+  },
+  {
+    "id": 225,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.129"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667963"
+  },
+  {
+    "id": 226,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.125.193"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667964"
+  },
+  {
+    "id": 227,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.19.16"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667966"
+  },
+  {
+    "id": 228,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.134"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667967"
+  },
+  {
+    "id": 229,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.127.243"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667971"
+  },
+  {
+    "id": 230,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.65.203"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667974"
+  },
+  {
+    "id": 231,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.127.191"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667979"
+  },
+  {
+    "id": 232,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.179"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667981"
+  },
+  {
+    "id": 233,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.17.225"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667984"
+  },
+  {
+    "id": 234,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.74.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667986"
+  },
+  {
+    "id": 235,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.4"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667989"
+  },
+  {
+    "id": 236,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.19.227"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667992"
+  },
+  {
+    "id": 237,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.17.177"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667994"
+  },
+  {
+    "id": 238,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.66.63"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.667997"
+  },
+  {
+    "id": 239,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.201.204"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668000"
+  },
+  {
+    "id": 240,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.5"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668002"
+  },
+  {
+    "id": 241,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.83"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668005"
+  },
+  {
+    "id": 242,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.255"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668007"
+  },
+  {
+    "id": 243,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.125.237"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668010"
+  },
+  {
+    "id": 244,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.246"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668012"
+  },
+  {
+    "id": 245,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.166"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668015"
+  },
+  {
+    "id": 246,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.160"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668018"
+  },
+  {
+    "id": 247,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.240"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668021"
+  },
+  {
+    "id": 248,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.6"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668023"
+  },
+  {
+    "id": 249,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.225"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668026"
+  },
+  {
+    "id": 250,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.242"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668028"
+  },
+  {
+    "id": 251,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.66.3"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668031"
+  },
+  {
+    "id": 252,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.227"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668034"
+  },
+  {
+    "id": 253,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.16"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668036"
+  },
+  {
+    "id": 254,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.115"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668039"
+  },
+  {
+    "id": 255,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.84"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668041"
+  },
+  {
+    "id": 256,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.101"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668044"
+  },
+  {
+    "id": 257,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.85"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668047"
+  },
+  {
+    "id": 258,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.125.174"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668049"
+  },
+  {
+    "id": 259,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.202.181"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668052"
+  },
+  {
+    "id": 260,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.180"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668054"
+  },
+  {
+    "id": 261,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.67.113"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668057"
+  },
+  {
+    "id": 262,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.215.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668060"
+  },
+  {
+    "id": 263,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.210"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668063"
+  },
+  {
+    "id": 264,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.66.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668065"
+  },
+  {
+    "id": 265,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.215.70"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668068"
+  },
+  {
+    "id": 266,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.67.211"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668070"
+  },
+  {
+    "id": 267,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.66.102"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668073"
+  },
+  {
+    "id": 268,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.147"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668076"
+  },
+  {
+    "id": 269,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.67.225"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668078"
+  },
+  {
+    "id": 270,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.9"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668081"
+  },
+  {
+    "id": 271,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.65.237"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668083"
+  },
+  {
+    "id": 272,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.18"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668086"
+  },
+  {
+    "id": 273,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.49"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668088"
+  },
+  {
+    "id": 274,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.163"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668091"
+  },
+  {
+    "id": 275,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.74.227"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668093"
+  },
+  {
+    "id": 276,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.245"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668096"
+  },
+  {
+    "id": 277,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.73.220"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668098"
+  },
+  {
+    "id": 278,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.195.33"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668101"
+  },
+  {
+    "id": 279,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.246"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668104"
+  },
+  {
+    "id": 280,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.228"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668106"
+  },
+  {
+    "id": 281,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.207"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668109"
+  },
+  {
+    "id": 282,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.130"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668112"
+  },
+  {
+    "id": 283,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.67.4"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668114"
+  },
+  {
+    "id": 284,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.191"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668117"
+  },
+  {
+    "id": 285,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.143"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668119"
+  },
+  {
+    "id": 286,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.32"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668122"
+  },
+  {
+    "id": 287,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.130"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668125"
+  },
+  {
+    "id": 288,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.67"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668127"
+  },
+  {
+    "id": 289,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.195.70"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668130"
+  },
+  {
+    "id": 290,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.215.50"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668132"
+  },
+  {
+    "id": 291,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.21"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668135"
+  },
+  {
+    "id": 292,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.175"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668137"
+  },
+  {
+    "id": 293,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.147"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668140"
+  },
+  {
+    "id": 294,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.110.160"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668143"
+  },
+  {
+    "id": 295,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.213"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668145"
+  },
+  {
+    "id": 296,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.129"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668148"
+  },
+  {
+    "id": 297,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.193.224"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668150"
+  },
+  {
+    "id": 298,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.122.38"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668153"
+  },
+  {
+    "id": 299,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.73.188"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668156"
+  },
+  {
+    "id": 300,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.112"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668158"
+  },
+  {
+    "id": 301,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.74.134"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668161"
+  },
+  {
+    "id": 302,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.106.37"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668163"
+  },
+  {
+    "id": 303,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.79"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668166"
+  },
+  {
+    "id": 304,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668169"
+  },
+  {
+    "id": 305,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.90.64"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668171"
+  },
+  {
+    "id": 306,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.37"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668174"
+  },
+  {
+    "id": 307,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.20"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668176"
+  },
+  {
+    "id": 308,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.98"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668179"
+  },
+  {
+    "id": 309,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.193.175"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668181"
+  },
+  {
+    "id": 310,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.242"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668184"
+  },
+  {
+    "id": 311,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.50"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668187"
+  },
+  {
+    "id": 312,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.110.68"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668189"
+  },
+  {
+    "id": 313,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.99"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668192"
+  },
+  {
+    "id": 314,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.227"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668194"
+  },
+  {
+    "id": 315,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.80"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668197"
+  },
+  {
+    "id": 316,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.146"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668199"
+  },
+  {
+    "id": 317,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.1"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668202"
+  },
+  {
+    "id": 318,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.228"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668204"
+  },
+  {
+    "id": 319,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.195.52"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668207"
+  },
+  {
+    "id": 320,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.122.79"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668209"
+  },
+  {
+    "id": 321,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.132"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668212"
+  },
+  {
+    "id": 322,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.100"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668215"
+  },
+  {
+    "id": 323,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.33"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668217"
+  },
+  {
+    "id": 324,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.70.211"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668220"
+  },
+  {
+    "id": 325,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.122.65"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668223"
+  },
+  {
+    "id": 326,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.38.214"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668225"
+  },
+  {
+    "id": 327,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.90.134"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668228"
+  },
+  {
+    "id": 328,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.9.207"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668230"
+  },
+  {
+    "id": 329,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.196"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668233"
+  },
+  {
+    "id": 330,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.70.5"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668240"
+  },
+  {
+    "id": 331,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.27.63"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668242"
+  },
+  {
+    "id": 332,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.242"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668245"
+  },
+  {
+    "id": 333,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.90.239"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668248"
+  },
+  {
+    "id": 334,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.109.236"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668250"
+  },
+  {
+    "id": 335,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.26.131"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668253"
+  },
+  {
+    "id": 336,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.11.85"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668256"
+  },
+  {
+    "id": 337,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.144"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668258"
+  },
+  {
+    "id": 338,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.97"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668261"
+  },
+  {
+    "id": 339,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.159"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668263"
+  },
+  {
+    "id": 340,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668266"
+  },
+  {
+    "id": 341,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.68"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668268"
+  },
+  {
+    "id": 342,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.209"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668271"
+  },
+  {
+    "id": 343,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.64"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668274"
+  },
+  {
+    "id": 344,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.110.196"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668276"
+  },
+  {
+    "id": 345,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.202.209"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668279"
+  },
+  {
+    "id": 346,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.35.1"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668282"
+  },
+  {
+    "id": 347,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.90.81"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668284"
+  },
+  {
+    "id": 348,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.105.189"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668287"
+  },
+  {
+    "id": 349,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.223"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668289"
+  },
+  {
+    "id": 350,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.70.112"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668292"
+  },
+  {
+    "id": 351,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.109.209"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668295"
+  },
+  {
+    "id": 352,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.229"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668297"
+  },
+  {
+    "id": 353,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.14.143"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668300"
+  },
+  {
+    "id": 354,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.195"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668302"
+  },
+  {
+    "id": 355,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.11.53"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668305"
+  },
+  {
+    "id": 356,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.11.194"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668308"
+  },
+  {
+    "id": 357,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.144"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668310"
+  },
+  {
+    "id": 358,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.37.240"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668313"
+  },
+  {
+    "id": 359,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.15.240"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668315"
+  },
+  {
+    "id": 360,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.26.177"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668318"
+  },
+  {
+    "id": 361,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.32"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668321"
+  },
+  {
+    "id": 362,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.146"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668323"
+  },
+  {
+    "id": 363,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.110.8"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668326"
+  },
+  {
+    "id": 364,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.70.37"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668329"
+  },
+  {
+    "id": 365,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.245"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668331"
+  },
+  {
+    "id": 366,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.13.188"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668334"
+  },
+  {
+    "id": 367,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.15"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668336"
+  },
+  {
+    "id": 368,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.32"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668339"
+  },
+  {
+    "id": 369,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.14.38"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668342"
+  },
+  {
+    "id": 370,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.6.214"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668344"
+  },
+  {
+    "id": 371,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.38.53"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668347"
+  },
+  {
+    "id": 372,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.230"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668350"
+  },
+  {
+    "id": 373,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.5.237"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668352"
+  },
+  {
+    "id": 374,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.160"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668355"
+  },
+  {
+    "id": 375,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.84"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668357"
+  },
+  {
+    "id": 376,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.38.197"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668360"
+  },
+  {
+    "id": 377,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.19"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668363"
+  },
+  {
+    "id": 378,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.213"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668365"
+  },
+  {
+    "id": 379,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.22"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668368"
+  },
+  {
+    "id": 380,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.159"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668370"
+  },
+  {
+    "id": 381,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.121.224"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668373"
+  },
+  {
+    "id": 382,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.15.198"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668376"
+  },
+  {
+    "id": 383,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.106.50"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668421"
+  },
+  {
+    "id": 384,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.6.191"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668426"
+  },
+  {
+    "id": 385,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.106.214"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668431"
+  },
+  {
+    "id": 386,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.26.8"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668435"
+  },
+  {
+    "id": 387,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.176"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668439"
+  },
+  {
+    "id": 388,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.102"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668443"
+  },
+  {
+    "id": 389,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.5.161"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668447"
+  },
+  {
+    "id": 390,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.96"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668451"
+  },
+  {
+    "id": 391,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.13.240"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668465"
+  },
+  {
+    "id": 392,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.6.4"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668470"
+  },
+  {
+    "id": 393,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.198.33"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668475"
+  },
+  {
+    "id": 394,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.15.101"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668479"
+  },
+  {
+    "id": 395,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.150"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668484"
+  },
+  {
+    "id": 396,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.197.161"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668489"
+  },
+  {
+    "id": 397,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.198.196"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668494"
+  },
+  {
+    "id": 398,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.25.237"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668499"
+  },
+  {
+    "id": 399,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.80"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668502"
+  },
+  {
+    "id": 400,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.86"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668505"
+  },
+  {
+    "id": 401,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.6.223"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668507"
+  },
+  {
+    "id": 402,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.15.67"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668510"
+  },
+  {
+    "id": 403,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.29.239"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668512"
+  },
+  {
+    "id": 404,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.179"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668515"
+  },
+  {
+    "id": 405,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.127.47"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668518"
+  },
+  {
+    "id": 406,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.202.134"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Volumetric Anomaly (Potential DoS)",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 99
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "50/hour",
+      "asset_criticality": "high",
+      "internet_facing": true
+    },
+    "mitre_id": "T1498",
+    "anomaly_score": "HIGH",
+    "created_at": "2025-12-29T17:48:24.668520"
+  }
+]

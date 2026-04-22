@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-inter: 'Inter', sans-serif;
+  --font-syne: 'Syne', sans-serif;
+
+  /* Background layers */
+  --bg-base:     #0E1420;
+  --bg-surface:  #141C2E;
+  --bg-elevated: #1C2740;
+  --bg-sidebar:  #0B1120;
+  --bg-card:     #141C2E;
+
+  /* Accent colors */
+  --accent-blue:    #2563EB;
+  --accent-blue-lt: #3B82F6;
+  --accent-cyan:    #06B6D4;
+  --accent-purple:  #8B5CF6;
+
+  /* Risk levels */
+  --risk-critical: #EF4444;
+  --risk-high:     #F97316;
+  --risk-medium:   #F59E0B;
+  --risk-low:      #10B981;
+
+  /* Text */
+  --text-primary:   #F1F5F9;
+  --text-secondary: #94A3B8;
+  --text-muted:     #475569;
+
+  /* Borders */
+  --border-subtle:  rgba(255, 255, 255, 0.07);
+  --border-card:    rgba(255, 255, 255, 0.09);
+
+  /* Legacy token shims (keep existing Tailwind references working) */
+  --background: 224 71% 4%;
+  --foreground: 213 31% 91%;
+  --card: 224 71% 6%;
+  --card-foreground: 213 31% 91%;
+  --primary: 262 83% 58%;
+  --primary-foreground: 210 40% 98%;
+  --border: 216 34% 17%;
+  --muted-foreground: 215 20% 65%;
+}
+
+@layer base {
+  * { box-sizing: border-box; }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    font-family: var(--font-inter);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-syne { font-family: var(--font-syne); }
+  .font-inter { font-family: var(--font-inter); }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg-base); }
+  ::-webkit-scrollbar-thumb { background: #2D3855; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3D4E70; }
+}
+
+@layer components {
+  /* ── Cards ─────────────────────────────────── */
+  .card {
+    @apply rounded-xl border bg-[--bg-surface];
+    border-color: var(--border-card);
+  }
+  .card-elevated {
+    @apply rounded-xl border bg-[--bg-elevated];
+    border-color: var(--border-card);
+  }
+
+  /* ── Buttons ────────────────────────────────── */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm text-white transition-all;
+    background: var(--accent-blue);
+  }
+  .btn-primary:hover { background: var(--accent-blue-lt); }
+  .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm transition-all;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-subtle);
+  }
+  .btn-ghost:hover {
+    background: var(--bg-elevated);
+    color: var(--text-primary);
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm text-white transition-all;
+    background: rgba(239,68,68,0.15);
+    color: #EF4444;
+    border: 1px solid rgba(239,68,68,0.25);
+  }
+  .btn-danger:hover { background: rgba(239,68,68,0.25); }
+
+  /* ── Sidebar ────────────────────────────────── */
+  .sidebar-item {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium w-full transition-all;
+    color: var(--text-secondary);
+  }
+  .sidebar-item:hover {
+    background: var(--bg-elevated);
+    color: var(--text-primary);
+  }
+  .sidebar-item.active {
+    background: rgba(37, 99, 235, 0.15);
+    color: #60A5FA;
+    border-left: 3px solid var(--accent-blue);
+    padding-left: calc(0.75rem - 3px);
+  }
+
+  /* ── Risk badges ────────────────────────────── */
+  .badge-risk {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider;
+  }
+  .badge-critical { background: rgba(239,68,68,0.15);  color: #F87171; border: 1px solid rgba(239,68,68,0.3); }
+  .badge-high     { background: rgba(249,115,22,0.15); color: #FB923C; border: 1px solid rgba(249,115,22,0.3); }
+  .badge-medium   { background: rgba(245,158,11,0.15); color: #FCD34D; border: 1px solid rgba(245,158,11,0.3); }
+  .badge-low      { background: rgba(16,185,129,0.15); color: #34D399; border: 1px solid rgba(16,185,129,0.3); }
+
+  /* ── Risk border strips ─────────────────────── */
+  .border-l-critical { border-left: 4px solid var(--risk-critical); }
+  .border-l-high     { border-left: 4px solid var(--risk-high); }
+  .border-l-medium   { border-left: 4px solid var(--risk-medium); }
+  .border-l-low      { border-left: 4px solid var(--risk-low); }
+
+  /* ── Stats card ─────────────────────────────── */
+  .stats-card {
+    @apply flex items-center gap-3 p-4 rounded-xl;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-card);
+  }
+
+  /* ── Section headers ────────────────────────── */
+  .section-header {
+    @apply flex items-center gap-3 mb-6 pb-4;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .section-icon {
+    @apply p-2 rounded-lg;
+    background: rgba(37,99,235,0.15);
+  }
+
+  /* ── Terminal box ───────────────────────────── */
+  .terminal-box {
+    @apply rounded-lg p-4 font-mono text-xs space-y-1;
+    background: #0A0F1A;
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+
+  /* ── Input fields ───────────────────────────── */
+  .form-input {
+    @apply w-full rounded-lg px-4 py-3 text-sm text-white outline-none transition-all;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-card);
+  }
+  .form-input:focus {
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+  }
+  .form-input::placeholder { color: var(--text-muted); }
+
+  /* ── Legacy glass (keep landing page working) ── */
+  .glass {
+    @apply backdrop-blur-md;
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid var(--border-subtle);
+  }
+  .glass-dark {
+    @apply backdrop-blur-md;
+    background: rgba(8, 13, 28, 0.85);
+    border: 1px solid var(--border-subtle);
+  }
+}
+
+/* ── Keyframe animations ────────────────────── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.4); }
+  50%       { box-shadow: 0 0 0 8px rgba(239,68,68,0); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+@keyframes glow {
+  0%, 100% { opacity: 0.5; }
+  50%       { opacity: 1; }
+}
+
+.animate-fadeInUp   { animation: fadeInUp 0.4s ease both; }
+.animate-slideInLeft { animation: slideInLeft 0.3s ease both; }
+.animate-pulse-glow  { animation: pulseGlow 2s ease infinite; }
+.animate-float       { animation: float 6s ease-in-out infinite; }
+.animate-glow        { animation: glow 4s ease-in-out infinite; }
+
+/* ── Bg grid (landing page) ─────────────────── */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}

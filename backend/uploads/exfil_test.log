@@ -1,0 +1,4 @@
+Jan 04 10:15:00 firewall sshd[1020]: Accepted password for user malicious_actor from 203.0.113.5 port 54322 ssh2
+Jan 04 10:15:01 firewall scp-r[1025]: [203.0.113.5] sent 129145600 bytes for /var/data/regular_backup.tar.gz
+Jan 04 10:15:05 firewall scp-r[1026]: [203.0.113.5] sent 629145600 bytes for /var/data/confidential_client_data.tar.gz
+Jan 04 10:15:10 firewall scp-r[1025]: [203.0.113.5] disconnected

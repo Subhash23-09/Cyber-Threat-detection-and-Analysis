@@ -1,0 +1,21 @@
+[2026-01-06 07:45:01] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54321 ssh2
+[2026-01-06 07:45:02] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54322 ssh2
+[2026-01-06 07:45:03] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54323 ssh2
+[2026-01-06 07:45:04] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54324 ssh2
+[2026-01-06 07:45:05] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54325 ssh2
+[2026-01-06 07:45:06] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54326 ssh2
+[2026-01-06 07:45:07] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54327 ssh2
+[2026-01-06 07:45:08] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54328 ssh2
+[2026-01-06 07:45:09] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54329 ssh2
+[2026-01-06 07:45:10] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54330 ssh2
+[2026-01-06 07:45:11] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54331 ssh2
+[2026-01-06 07:45:12] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54332 ssh2
+[2026-01-06 07:45:13] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54333 ssh2
+[2026-01-06 07:45:14] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54334 ssh2
+[2026-01-06 07:45:15] sshd[1234]: Failed password for invalid user admin from 195.144.21.143 port 54335 ssh2
+[2026-01-06 07:46:00] stunnel: SSL Certificate Mismatch detected for domain corporate-internal-vault.com. Incoming connection from 195.144.21.143.
+[2026-01-06 07:46:01] kernel: [654321.123] net: ARP duplicate address detected for 10.0.0.1 from MAC 00:0c:29:4f:8a:1c (previously 00:50:56:c0:00:08)
+[2026-01-06 07:47:10] sudo: pam_unix(sudo:auth): authentication failure; logname=uid=1000 euid=0 tty=/dev/pts/0 ruser=attacker rhost=195.144.21.143  user=root
+[2026-01-06 07:47:15] sudo: attacker : TTY=pts/0 ; PWD=/home/attacker ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+[2026-01-06 07:48:00] systemd[1]: app-critical-service.service: Main process exited, code=dumped, status=11/SEGV (FATAL ERROR)
+[2026-01-06 07:48:01] kernel: [654330.456] traps: application[9999] general protection fault ip:7fca1234 sp:7ffc1234 error:0 in libsecurity.so

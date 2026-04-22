@@ -1,0 +1,5077 @@
+[
+  {
+    "id": 1,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.19.102"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 15
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469408"
+  },
+  {
+    "id": 2,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.6"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469421"
+  },
+  {
+    "id": 3,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.14.224"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 30
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469427"
+  },
+  {
+    "id": 4,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.209"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469431"
+  },
+  {
+    "id": 5,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.215.16"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469435"
+  },
+  {
+    "id": 6,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.16"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469438"
+  },
+  {
+    "id": 7,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.193"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469442"
+  },
+  {
+    "id": 8,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.106.10"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 29
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469445"
+  },
+  {
+    "id": 9,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.197.226"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469449"
+  },
+  {
+    "id": 10,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.11.100"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469452"
+  },
+  {
+    "id": 11,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.179"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469455"
+  },
+  {
+    "id": 12,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.14.196"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469459"
+  },
+  {
+    "id": 13,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.244"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469462"
+  },
+  {
+    "id": 14,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.74.79"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469466"
+  },
+  {
+    "id": 15,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.19"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 48
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469469"
+  },
+  {
+    "id": 16,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.89.155"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 48
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469472"
+  },
+  {
+    "id": 17,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.18.114"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469475"
+  },
+  {
+    "id": 18,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.225"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469479"
+  },
+  {
+    "id": 19,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.85"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469482"
+  },
+  {
+    "id": 20,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.5"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469485"
+  },
+  {
+    "id": 21,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.149"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 29
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469489"
+  },
+  {
+    "id": 22,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.129"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 30
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469493"
+  },
+  {
+    "id": 23,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.125.193"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469496"
+  },
+  {
+    "id": 24,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.19.16"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469499"
+  },
+  {
+    "id": 25,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.134"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469502"
+  },
+  {
+    "id": 26,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.127.243"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469505"
+  },
+  {
+    "id": 27,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.65.203"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469509"
+  },
+  {
+    "id": 28,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.127.191"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469512"
+  },
+  {
+    "id": 29,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.179"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469515"
+  },
+  {
+    "id": 30,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.17.225"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469518"
+  },
+  {
+    "id": 31,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.74.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469522"
+  },
+  {
+    "id": 32,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.4"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 32
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469525"
+  },
+  {
+    "id": 33,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.19.227"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469528"
+  },
+  {
+    "id": 34,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.17.177"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469531"
+  },
+  {
+    "id": 35,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.66.63"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469535"
+  },
+  {
+    "id": 36,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.201.204"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 36
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469538"
+  },
+  {
+    "id": 37,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.5"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469541"
+  },
+  {
+    "id": 38,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.83"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469545"
+  },
+  {
+    "id": 39,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.255"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 34
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469548"
+  },
+  {
+    "id": 40,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.125.237"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469550"
+  },
+  {
+    "id": 41,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.246"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 30
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469554"
+  },
+  {
+    "id": 42,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.166"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 35
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469557"
+  },
+  {
+    "id": 43,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.160"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469560"
+  },
+  {
+    "id": 44,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.240"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469563"
+  },
+  {
+    "id": 45,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.6"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469565"
+  },
+  {
+    "id": 46,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.225"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469568"
+  },
+  {
+    "id": 47,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.242"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469571"
+  },
+  {
+    "id": 48,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.66.3"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469574"
+  },
+  {
+    "id": 49,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.227"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469577"
+  },
+  {
+    "id": 50,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.16"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469580"
+  },
+  {
+    "id": 51,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.115"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469583"
+  },
+  {
+    "id": 52,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.84"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469585"
+  },
+  {
+    "id": 53,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.30.101"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469588"
+  },
+  {
+    "id": 54,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.85"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469592"
+  },
+  {
+    "id": 55,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.125.174"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469595"
+  },
+  {
+    "id": 56,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.202.181"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 35
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469598"
+  },
+  {
+    "id": 57,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.31.180"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469600"
+  },
+  {
+    "id": 58,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.67.113"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469604"
+  },
+  {
+    "id": 59,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.215.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469607"
+  },
+  {
+    "id": 60,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.210"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469610"
+  },
+  {
+    "id": 61,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.66.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469613"
+  },
+  {
+    "id": 62,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.215.70"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469616"
+  },
+  {
+    "id": 63,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.67.211"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469619"
+  },
+  {
+    "id": 64,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.66.102"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469622"
+  },
+  {
+    "id": 65,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.147"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469625"
+  },
+  {
+    "id": 66,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.67.225"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469628"
+  },
+  {
+    "id": 67,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.9"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469631"
+  },
+  {
+    "id": 68,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.65.237"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469634"
+  },
+  {
+    "id": 69,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.18"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469637"
+  },
+  {
+    "id": 70,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.49"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469641"
+  },
+  {
+    "id": 71,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.163"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469644"
+  },
+  {
+    "id": 72,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.74.227"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469648"
+  },
+  {
+    "id": 73,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.245"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469651"
+  },
+  {
+    "id": 74,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.73.220"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469654"
+  },
+  {
+    "id": 75,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.195.33"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 48
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469657"
+  },
+  {
+    "id": 76,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.246"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469660"
+  },
+  {
+    "id": 77,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.228"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469663"
+  },
+  {
+    "id": 78,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.207"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469667"
+  },
+  {
+    "id": 79,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.130"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469670"
+  },
+  {
+    "id": 80,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.67.4"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469673"
+  },
+  {
+    "id": 81,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.42.191"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469677"
+  },
+  {
+    "id": 82,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.143"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469680"
+  },
+  {
+    "id": 83,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.32"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469684"
+  },
+  {
+    "id": 84,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.130"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469687"
+  },
+  {
+    "id": 85,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.67"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469691"
+  },
+  {
+    "id": 86,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.195.70"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469694"
+  },
+  {
+    "id": 87,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.215.50"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469697"
+  },
+  {
+    "id": 88,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.21"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469700"
+  },
+  {
+    "id": 89,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.175"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469704"
+  },
+  {
+    "id": 90,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.147"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469707"
+  },
+  {
+    "id": 91,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.110.160"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469710"
+  },
+  {
+    "id": 92,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.213"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469713"
+  },
+  {
+    "id": 93,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.129"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469717"
+  },
+  {
+    "id": 94,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.193.224"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469720"
+  },
+  {
+    "id": 95,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.122.38"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 37
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469723"
+  },
+  {
+    "id": 96,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.73.188"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469726"
+  },
+  {
+    "id": 97,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.214.112"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469729"
+  },
+  {
+    "id": 98,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.74.134"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469732"
+  },
+  {
+    "id": 99,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.106.37"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469735"
+  },
+  {
+    "id": 100,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.75.79"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469738"
+  },
+  {
+    "id": 101,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.43.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469741"
+  },
+  {
+    "id": 102,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.90.64"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469744"
+  },
+  {
+    "id": 103,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.37"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469747"
+  },
+  {
+    "id": 104,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.20"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469751"
+  },
+  {
+    "id": 105,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.98"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469754"
+  },
+  {
+    "id": 106,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.193.175"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469758"
+  },
+  {
+    "id": 107,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.242"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 35
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469761"
+  },
+  {
+    "id": 108,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.50"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 15
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469765"
+  },
+  {
+    "id": 109,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.110.68"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469768"
+  },
+  {
+    "id": 110,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.99"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 36
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469772"
+  },
+  {
+    "id": 111,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.227"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469776"
+  },
+  {
+    "id": 112,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.80"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469780"
+  },
+  {
+    "id": 113,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.146"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469783"
+  },
+  {
+    "id": 114,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.1"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469787"
+  },
+  {
+    "id": 115,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.111.228"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469791"
+  },
+  {
+    "id": 116,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.195.52"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469795"
+  },
+  {
+    "id": 117,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.122.79"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469799"
+  },
+  {
+    "id": 118,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.132"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 37
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469802"
+  },
+  {
+    "id": 119,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.100"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 33
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469806"
+  },
+  {
+    "id": 120,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.33"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 15
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469810"
+  },
+  {
+    "id": 121,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.70.211"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469815"
+  },
+  {
+    "id": 122,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.122.65"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469819"
+  },
+  {
+    "id": 123,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.38.214"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469822"
+  },
+  {
+    "id": 124,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.90.134"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 36
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469826"
+  },
+  {
+    "id": 125,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.9.207"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469830"
+  },
+  {
+    "id": 126,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.107.196"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469833"
+  },
+  {
+    "id": 127,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.70.5"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469837"
+  },
+  {
+    "id": 128,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.27.63"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469841"
+  },
+  {
+    "id": 129,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.242"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469844"
+  },
+  {
+    "id": 130,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.90.239"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469848"
+  },
+  {
+    "id": 131,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.109.236"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469852"
+  },
+  {
+    "id": 132,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.26.131"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469856"
+  },
+  {
+    "id": 133,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.11.85"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 34
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469860"
+  },
+  {
+    "id": 134,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.144"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469863"
+  },
+  {
+    "id": 135,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.97"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469867"
+  },
+  {
+    "id": 136,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.159"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469871"
+  },
+  {
+    "id": 137,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.192"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469875"
+  },
+  {
+    "id": 138,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.71.68"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469878"
+  },
+  {
+    "id": 139,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.209"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469881"
+  },
+  {
+    "id": 140,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.64"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469885"
+  },
+  {
+    "id": 141,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.110.196"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469888"
+  },
+  {
+    "id": 142,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.202.209"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 33
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469891"
+  },
+  {
+    "id": 143,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.35.1"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469894"
+  },
+  {
+    "id": 144,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.90.81"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469898"
+  },
+  {
+    "id": 145,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.105.189"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469901"
+  },
+  {
+    "id": 146,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.223"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469904"
+  },
+  {
+    "id": 147,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.70.112"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469907"
+  },
+  {
+    "id": 148,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.109.209"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469910"
+  },
+  {
+    "id": 149,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.229"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469913"
+  },
+  {
+    "id": 150,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.14.143"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469916"
+  },
+  {
+    "id": 151,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.123.195"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469920"
+  },
+  {
+    "id": 152,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.11.53"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469923"
+  },
+  {
+    "id": 153,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.11.194"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 48
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469926"
+  },
+  {
+    "id": 154,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.144"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469929"
+  },
+  {
+    "id": 155,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.37.240"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469932"
+  },
+  {
+    "id": 156,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.15.240"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469935"
+  },
+  {
+    "id": 157,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.26.177"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469939"
+  },
+  {
+    "id": 158,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.32"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 26
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469942"
+  },
+  {
+    "id": 159,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.146"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469945"
+  },
+  {
+    "id": 160,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.110.8"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469948"
+  },
+  {
+    "id": 161,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.70.37"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469952"
+  },
+  {
+    "id": 162,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.245"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469955"
+  },
+  {
+    "id": 163,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.13.188"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469958"
+  },
+  {
+    "id": 164,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.15"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469962"
+  },
+  {
+    "id": 165,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.32"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469965"
+  },
+  {
+    "id": 166,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.14.38"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469968"
+  },
+  {
+    "id": 167,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.6.214"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 48
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469972"
+  },
+  {
+    "id": 168,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.38.53"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469975"
+  },
+  {
+    "id": 169,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.230"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469978"
+  },
+  {
+    "id": 170,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.5.237"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469982"
+  },
+  {
+    "id": 171,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.39.160"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 15
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469985"
+  },
+  {
+    "id": 172,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.91.84"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469988"
+  },
+  {
+    "id": 173,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.38.197"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 48
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469995"
+  },
+  {
+    "id": 174,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.19"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.469998"
+  },
+  {
+    "id": 175,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.213"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470001"
+  },
+  {
+    "id": 176,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.126.22"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470004"
+  },
+  {
+    "id": 177,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.159"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470007"
+  },
+  {
+    "id": 178,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.121.224"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470010"
+  },
+  {
+    "id": 179,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.15.198"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470014"
+  },
+  {
+    "id": 180,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.106.50"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470017"
+  },
+  {
+    "id": 181,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.6.191"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 46
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470019"
+  },
+  {
+    "id": 182,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.106.214"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 33
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470022"
+  },
+  {
+    "id": 183,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.26.8"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470025"
+  },
+  {
+    "id": 184,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.10.176"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470029"
+  },
+  {
+    "id": 185,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.194.102"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470032"
+  },
+  {
+    "id": 186,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.5.161"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470035"
+  },
+  {
+    "id": 187,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.7.96"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 39
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470038"
+  },
+  {
+    "id": 188,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.13.240"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 45
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470040"
+  },
+  {
+    "id": 189,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.6.4"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470044"
+  },
+  {
+    "id": 190,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.198.33"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 48
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470047"
+  },
+  {
+    "id": 191,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.15.101"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 42
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470050"
+  },
+  {
+    "id": 192,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.150"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 41
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470053"
+  },
+  {
+    "id": 193,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.197.161"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 40
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470057"
+  },
+  {
+    "id": 194,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.198.196"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 36
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470060"
+  },
+  {
+    "id": 195,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.25.237"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 35
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470063"
+  },
+  {
+    "id": 196,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.80"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 27
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470066"
+  },
+  {
+    "id": 197,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.199.86"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 47
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470070"
+  },
+  {
+    "id": 198,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.6.223"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470073"
+  },
+  {
+    "id": 199,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.250.15.67"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 38
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470076"
+  },
+  {
+    "id": 200,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.29.239"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 43
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470080"
+  },
+  {
+    "id": 201,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.203.179"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 26
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470083"
+  },
+  {
+    "id": 202,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.127.47"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 44
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470086"
+  },
+  {
+    "id": 203,
+    "event_type": "network_flow",
+    "actor": {
+      "source_ip": "10.251.202.134"
+    },
+    "target": {
+      "user": "server",
+      "destination": "server"
+    },
+    "action": "Network Scanning / Baseline",
+    "metrics": {
+      "failed_attempts": 0,
+      "confidence": 29
+    },
+    "time_window": "session",
+    "context": {
+      "baseline": "48757.2 avg/IP",
+      "std_dev": "3711.7",
+      "internet_facing": true
+    },
+    "mitre_id": "T1595",
+    "anomaly_score": "INFO",
+    "created_at": "2025-12-29T18:13:47.470089"
+  }
+]

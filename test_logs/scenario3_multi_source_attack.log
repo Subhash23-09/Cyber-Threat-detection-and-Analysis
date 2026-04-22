@@ -1,0 +1,12 @@
+EventID=4625 TimeCreated=2026-01-03T17:20:01 TargetUserName=dbadmin IpAddress=103.89.91.95 LogonType=3 Status=0xC000006D FailureReason=Unknown user name or bad password
+EventID=4625 TimeCreated=2026-01-03T17:20:15 TargetUserName=dbadmin IpAddress=103.89.91.95 LogonType=3 Status=0xC000006D FailureReason=Unknown user name or bad password
+EventID=4625 TimeCreated=2026-01-03T17:20:30 TargetUserName=dbadmin IpAddress=103.89.91.95 LogonType=3 Status=0xC000006D FailureReason=Unknown user name or bad password
+Jan 3 17:21:05 server sshd[33221]: Failed password for dbadmin from 103.89.91.95 port 33221 ssh2
+Jan 3 17:21:20 server sshd[33222]: Failed password for dbadmin from 103.89.91.95 port 33222 ssh2
+Jan 3 17:21:35 server sshd[33223]: Failed password for dbadmin from 103.89.91.95 port 33223 ssh2
+Jan 3 17:22:00 firewall: DENY TCP src=103.89.91.95 dst=10.0.0.5 sport=44532 dport=3306 rule=DB_ACCESS_DENY
+Jan 3 17:22:15 firewall: DENY TCP src=103.89.91.95 dst=10.0.0.5 sport=44533 dport=3306 rule=DB_ACCESS_DENY
+Jan 3 17:22:30 firewall: DENY TCP src=103.89.91.95 dst=10.0.0.5 sport=44534 dport=3306 rule=DB_ACCESS_DENY
+EventID=4625 TimeCreated=2026-01-03T17:23:00 TargetUserName=dbadmin IpAddress=103.89.91.95 LogonType=3 Status=0xC000006D
+Jan 3 17:23:15 server sshd[33224]: Failed password for dbadmin from 103.89.91.95 port 33224 ssh2
+Jan 3 17:23:30 firewall: DENY TCP src=103.89.91.95 dst=10.0.0.5 sport=44535 dport=3306 rule=DB_ACCESS_DENY
